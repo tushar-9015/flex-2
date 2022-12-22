@@ -1,0 +1,39 @@
+body {
+  font-family: "open sans";
+  background: rgb(188, 220, 233);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+aside,
+main {
+  background: white;
+  border-radius: 5px;
+  height: 350px;
+  padding: 1rem;
+}
+
+a {
+  text-decoration: none;
+}
+
+.wrapper {
+  max-width: 950 px;
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  margin: 1rem auto;
+}
+
+aside {
+  flex-basis: 250px;
+  margin-right: 24px;
+  margin-bottom: 1rem;
+}
+
+main {
+  flex-grow: 1;
+}
